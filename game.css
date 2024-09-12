@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background: rgb(101,46,199);
+    background: radial-gradient(circle, rgba(101,46,199,1) 7%, rgba(18,0,82,1) 66%, rgba(0,0,0,1) 100%);
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+        }
+
+ canvas {
+    background: rgb(101,46,199);
+    background: radial-gradient(circle, rgba(101,46,199,1) 7%, rgba(18,0,82,1) 66%, rgba(0,0,0,1) 100%);
+    display: block;
+    margin: 0 auto;
+    border: 1.2rem inset #652ec7;
+    box-shadow: 1rem 1rem 2rem black;
+        }

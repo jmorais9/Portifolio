@@ -1,0 +1,83 @@
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio João Morais</title>
+        <link rel="stylesheet" href="css.css">
+        <link rel="shortcut icon" href="joaom.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init("bombatv10mil@gmail.com"); // Substitua pelo seu user_id do EmailJS
+        })();
+    </script>
+    </head>
+    <body id='body'>
+        
+        <canvas id="canva"></canvas>
+
+        
+        <section id="sessao1">
+            <header>
+                <ol>
+                    <li><a href="#biografia">Biografia</a></li>
+                    <li><a href='#skills'>Projetos</a></li>
+                    <li><a href='interacao.html' target="_blank">Interação</a></li>
+                    <li><a href='#contato'>Contato</a></li>
+                </ol>
+            </header>
+            
+            <img src="joaom.png" alt="Foto João Morais">
+            <h1>João Morais</h1>
+            <p>Desenvolvedor Web</p>
+        </section>
+
+        <section id="biografia">
+            <img src="eu.jpeg" id="icone" alt="João Morais">
+            <div class="text">
+                <h1>Biografia</h1>
+                <p>Sou um desenvolvedor web especializado em criar soluções digitais 
+                    inovadoras e funcionais. Com experiência em tecnologias como HTML, CSS, JavaScript e PHP, transformo ideias em projetos web de alta performance e design responsivo. Focado em usabilidade e colaboração, estou sempre em busca de novos desafios para oferecer resultados que superem as expectativas.</p>
+            </div>
+        </section>
+        <section id='skills'>
+            <h1>Meus projetos</h1>
+                <div class='projetos'>
+                <a href='projetos.html'><img src='js.png' ></a>
+                <a href='projetosphp.html'><img src='php.png'></a>
+            </div>
+        </section>
+        <section id='contato'>
+            <h1>Formulário de contato</h1>
+            <form id="contato-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Assunto:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" id='btn'>Enviar</button>
+                
+        </section>
+
+        <footer>
+                    <img src='joaom.png'>
+                    <a href='#sessao1'><h1>João Morais</h1></a>
+                    <div class='img'>
+                        <a href='https://www.instagram.com/jmorais9/?locale=ne_NP&hl=ar' target='_blank'><img src='insta.png'></a>
+                        <a href='https://github.com/jmorais9' target='_blank'><img src='github.png'></a>
+                    </div>
+                </footer>
+    </body>
+    <script src="code.js"></script>
+</html>
